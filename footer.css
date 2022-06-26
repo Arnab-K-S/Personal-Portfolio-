@@ -22,12 +22,10 @@ h6{
     font-family: sans-serif;
     color: var(--black);
 }
-#_14-linkedin{
-    height: 1vh;
-}
 .socialmedia{
     height: 10vh;
     border-radius: 100%;
+    margin: 2%;
 }
 .socialmedia:hover{
     transform: translateY(-4vh);
@@ -37,6 +35,6 @@ h6{
 #contactme{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 50%;
     margin-bottom: 2%;
 }

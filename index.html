@@ -13,6 +13,7 @@
     <link href="home.css" rel="stylesheet">
     <link href="index.css" rel="stylesheet">
     <link href="navbar.css" rel="stylesheet">
+    <link href="project.css" rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
             <h1 id="welcome">Welcome</h1>
             <ul>
                 <li id="1"><a href="#home"><button>Home</button></a></li>
-                <li id="2"><a href="#projects"><button>Project List</button></a></li>
+                <li id="2"><a href="#project"><button>Project List</button></a></li>
                 <li id="3"><a href="#aboutme"><button>About Me</button></a></li>
                 <li id="4"><a href="#feedback"><button>Feedback</button></a></li>
                 <li id="4"><a href="#contactme"><button>Contact Me</button></a></li>
@@ -71,6 +72,30 @@
                     Nodejs | Reactjs | Familar with Databases like MySQL and Firebase</div>
             </div>
         </div><img id="frontpage" src="images/frontpage.png" alt="."></div>
+        <div class="pagesection"> Projects</div>
+    <div id="project" class="project">
+        <div class="header"> Solo Projects</div>
+        <table id="solo">
+            <tr>
+                <th>Slno</th>
+                <th>Project Name<br> (Click to open Github Repo)</th>
+                <th>Project Description</th>
+                <th>Hosted link (if available)</th>
+            </tr>
+        </table>
+        <div class="header"> Team Projects</div>
+        <table id="team">
+            <tr>
+                <th>Slno</th>
+                <th>Project Name<br> (Click to open Github Repo)</th>
+                <th>Project Description</th>
+                <th>Team Name</th>
+                <th>Github Repo link</th>
+                <th>Hosted link (if available)</th>
+            </tr>
+        </table>
+    </div>
+        <div class="pagesection"> Feedback</div>
 
    <div id="feedback" class="feedback">
     <div class="container">
@@ -124,7 +149,8 @@
 
         </ul>
     </div>
-   </div>     
+   </div> 
+
         <footer>
             <div id="contactme">
                 <div class="socialmedia">
@@ -145,6 +171,7 @@
                         <circle class="cls-2" cx="13.5" cy="13.38" r="5.64" />
                     </g>
                 </svg>
+                </a>
                 </div>
 
                <div class="socialmedia">
@@ -160,7 +187,7 @@
                             style="fill:var(--basecolor);fill-rule:nonzero;" />
                     </g>
                 </svg>
-            </a>
+
                </div> 
                <div class="socialmedia">
 <?xml version="1.0" ?>
@@ -199,4 +226,5 @@
 <script defer="defer" src="index.js"></script>
 <script  defer="defer" src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
 <script  defer="defer" src="feedback.js"></script>
+<script  src="projectlist.js"></script>
 </html>
