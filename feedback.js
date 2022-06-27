@@ -13,6 +13,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 function sendmessage() {
+    const date=new Date()
     console.log("Function executed");
     let name = document.getElementById("name");
     let designation = document.getElementById("designation");
@@ -22,6 +23,8 @@ function sendmessage() {
             "name": name.value,
             "message": comment.value,
             "designation":designation.value,
+            "time":date.toLocaleTimeString(),
+            "date":date.toLocaleDateString(),
         });
         alert("Feedback Submited! Thank you for your review");
         name.value = '';
@@ -45,6 +48,10 @@ firebase.database().ref("users").on("child_added", function (snapshot) {
                 <h2>  ${snapshot.val().name}</h2>
                 </div>
                 <p>${snapshot.val().message}</p>
+                <div class="timebox">
+                <span class="time">${snapshot.val().time}</span>
+                <span class="date">${snapshot.val().date}</span>
+                </div>
             </div>
         </li>`
     document.getElementById("ul").innerHTML += feeds;
