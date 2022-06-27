@@ -15,17 +15,17 @@ firebase.initializeApp(firebaseConfig);
 function sendmessage() {
     console.log("Function executed");
     let name = document.getElementById("name");
-    let email = document.getElementById("email");
+    let designation = document.getElementById("designation");
     let comment = document.getElementById("comment");
-    if (name.value != '' && email.value!=' ' && comment.value!=' ') {
+    if (name.value != '' && designation.value!=' ' && comment.value!=' ') {
         firebase.database().ref("users").push().set({
             "name": name.value,
             "message": comment.value,
-            "email":email.value,
+            "designation":designation.value,
         });
         alert("Feedback Submited! Thank you for your review");
         name.value = '';
-        email.value = '';
+        designation.value = '';
         comment.value = '';
     }
     return false;
@@ -41,7 +41,7 @@ firebase.database().ref("users").on("child_added", function (snapshot) {
           <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="profile">
             <div class="rest">
                 <div class="info">
-                <span class="emailspan">${snapshot.val().email}</span>
+                <span class="designationspan">${snapshot.val().designation}</span>
                 <h2>  ${snapshot.val().name}</h2>
                 </div>
                 <p>${snapshot.val().message}</p>
