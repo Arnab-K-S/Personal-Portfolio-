@@ -14,7 +14,7 @@ label,input,textarea{
     margin: 2%;
     padding: 1%;
     background-color: var(--white);
-    color: var(--text);
+        color: var(--black);
     border: none;
 }
 

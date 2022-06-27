@@ -65,6 +65,18 @@
        --white: #767676;
        --basecolor: rgba(255, 0, 0, 0.626);
    }
+
+   .redbaselight{
+        --text: rgb(255 255 255);
+        --Borders: rgb(255, 255, 255);
+        --black: black;
+        --shadow: rgba(0, 0, 0, 0.346);
+        --background: rgb(235 235 235);
+        --grey: rgb(213 213 213);
+        --white: #ffffff;
+        --basecolor: rgba(255, 0, 0, 0.626);
+    }
+
 /* =============================================== */
 *{
     padding                 : 0%;

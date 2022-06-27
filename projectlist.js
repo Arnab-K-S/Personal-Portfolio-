@@ -67,13 +67,16 @@ const TeamProjects = [
         A total of 20 amphibians, 12 lizards, 18 snakes, 6 turtle and tortoise species have been listed here. Considering the aforementioned factors, the area attracts a lot of researchers, students and wildlife photographers other than the regular tourists.`
     },
 
-    { 
+    {
         "slno": '2',
-         "name": "E-Libary Project",
-         'teamname': 'Coding Noobs',
-         'url': '',
-         'repo': '',
-         'description': ` ` 
+        "name": "E-Libary Project",
+        'teamname': 'Coding Noobs',
+        'url': '',
+        'repo': '',
+        'description': ` The First Project and a team work on web development in fulfilment of Fast Web 2022 Hackathon , held by the ECS Society, under the event spectrum.We are glad to say that even having a very minor knowledge of HTML and CSS ( no JavaScript was used), we bagged the 2nd Runner Up. The Judges were Impressed with our work too.
+
+        After that several commits were made to this project until completion.
+        The website is a sample to a Library Website along with multiple features.`
     },
 ]
 
