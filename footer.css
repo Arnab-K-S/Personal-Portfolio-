@@ -1,0 +1,40 @@
+footer
+{
+    margin-top: auto;
+    background-color: var(--basecolor);
+    width:98%;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1%;
+}
+
+h5
+{
+    font-family: sans-serif;
+    color: var(--text);
+}
+
+h6{
+    font-family: sans-serif;
+    color: var(--black);
+}
+.socialmedia{
+    height: 10vh;
+    border-radius: 100%;
+    margin: 2%;
+}
+.socialmedia:hover{
+    transform: translateY(-4vh);
+    transition: 1s;
+    box-shadow: 1vh 1vh 5vh 0vh var(--text);
+}
+#contactme{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-bottom: 2%;
+}

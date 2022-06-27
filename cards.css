@@ -1,0 +1,56 @@
+img,
+.cardbody   {       
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width                       :   inherit;
+    height                      :   inherit;
+}       
+
+.card {     
+    margin-top                  :    5%;
+    margin-inline               :    2%;
+    color                       :    var(--black);
+    padding                     :    2%;
+    align-items                 :    center;
+    width                       :    20rem;
+    border-radius               :    1vh;
+    transition                  :    1s;
+    background-color            :    var(--white);
+    font-size                   :    3vh;
+    text-align                  :    center;
+    justify-content             :    center;
+}       
+
+.card:hover {       
+    box-shadow                  :    0.3vh 0.3vh 0.3vh 0.3vh var(--shadow);
+    transition                  :    1s ease-in-out;
+}
+
+.flexbox{
+    display                     :    flex;
+    justify-content             :    space-around;
+
+}
+
+.card h1{
+    font-size                   :   larger;
+    font-family                 :   'Montserrat',sans-serif ;
+    font-weight                 :   900;
+    background-color            : var(--basecolor);
+    color                       : var(--text);
+    padding                     : 1%;
+}
+
+.cardbody{
+    font-family: 'Mukta',sans-serif;
+}
+
+@media only screen and (max-width:1000px) {
+    .flexbox {
+            flex-direction: column;
+            align-items: center;
+        }
+    .card{
+        margin-inline: 0;
+    }
+}

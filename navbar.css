@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
+li {
+    background-color        :        transparent;
+    list-style-type         :        none;
+    margin-inline           :        2%;
+    width                   :        20vh;
+    border                  :        none;
+}
+
+ul {
+    padding                 :        2%;
+    display                 :        flex;
+    margin-left             :        auto;
+    background-color        :        transparent;
+    align-items             :        flex-start;
+    justify-content         :        space-around;
+}
+
+nav {
+    display                 :        flex;
+    align-items             :        flex-start;
+    justify-content         :        flex-start;
+}
+
+nav {
+    background-color        :        var(--basecolor);
+    padding-inline-end      :        3%;
+    padding-top             :        2%;
+    padding-bottom          :        1%;
+}
+
+#welcome {
+    margin-left             :        2vh;
+    background-color        :        var(--header);
+    color                   :        var(--text);
+    padding                 :        1%;
+    font-size               :        10vh;
+    font-family             :        'Smooch',cursive;
+    font-weight             :        100;
+}
+
+button,button:active {
+    color                   :        var(--text);
+    outline                 :        none;
+    padding                 :        2%;
+    font-size               :        3vh;
+    font-family             :        'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width                   :        20vh;
+    border                  :        none;
+    height                  :        10vh;
+}
+
+ul button {
+    background-color        :        transparent;
+    border-radius           :        1vh;
+}
+
+li button:active::before {
+    content                 :        '';
+    position                :        absolute;
+    z-index                 :        -1;
+    top                     :        110%;
+    right                   :        -1%;
+    left                    :        -1%;
+    width                   :        20vh;
+    height                  :        1vh;
+    background-color        :        var(--white);
+}
+
+ul button:active,
+ul button:hover {
+    background-size         :        100%;
+    color                   :        var(--black);
+    background-color        :        var(--white);
+    transition              :        1s linear;
+}
+
+ul button:active {
+    transform               :        translateY(-1rem);
+}
+
+@media only screen and (max-width:740px) {
+    nav,ul{
+        flex-direction      :        column;
+        align-items         :        center;
+        font-size           :        small;
+        margin-left         :        0%;
+    }
+    #welcome{  
+        font-size           :        50px;
+    }
+}
+
+/* =========Themes Dropdown Menu========== */
+
+#dropmenu{
+    display                 :       none;
+    background-color        :       var(--background);
+    align-items             :       center;
+    justify-content         :       space-around;
+    padding                 :       none;
+    transition              :       1s ease-in-out;
+    position                :       absolute;
+    width                   :       20vh;
+}
+
+#dropmenu:hover button:hover{
+    background-color        : var(--black);
+    color                   : var(--white);
+}
+#dropmenu button{
+    margin                  : none;
+    color                   : var(--black);
+}
+
+.dropbtn:hover #dropmenu{
+    display                 : none;
+}
+
+#dropmenu button:active{
+    transform               : none;
+}
+
+.navigation{
+    text-decoration: none;
+    color: inherit;
+}

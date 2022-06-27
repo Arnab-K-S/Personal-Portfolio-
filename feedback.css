@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mukta:wght@200&family=Titan+One&display=swap');
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    scroll-behavior: smooth;
+    font-family: 'Mukta',sans-serif;
+}
+label,input,textarea{
+    border-radius: 2vh;
+    margin: 2%;
+    padding: 1%;
+    background-color: var(--white);
+    color: var(--black);
+    border: none;
+}
+
+textarea{
+    resize: none;
+}
+
+.container button {
+    padding: 1%;
+    margin-left: 40%;
+    background-color: var(--basecolor);
+}
+
+.container button:active {
+    border-radius: 25vh;
+    box-shadow: .5vh .5vh .5vh 0 var(--shadow);
+    transition: 1s;
+}
+
+.commentbox{
+    background-color: var(--white);
+    padding: 5%;
+    
+}
+
+#box{
+    position: absolute;
+    right: 0%;
+    margin: 2%;
+    padding: 1%;
+    background-color: var(--basecolor);
+    margin-left: auto;
+    border-radius: 2vh;
+}
+
+.commentbox li{
+    /* background-color: var(--background); */
+    background-color: antiquewhite;
+    display: flex;
+    color: black;
+    width: 90%;
+    padding: 2%;
+    border-radius: 2vh;
+    margin: 5%;
+}
+
+.info{
+    /* display: flex; */
+    /* align-items: baseline; */
+}
+.commentbox img{
+    width: 20vh;
+    margin: 1%;
+    border-radius: 100%;
+    background-image: linear-gradient(var(--basecolor),var(--basecolor));
+}
+.commentbox h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3vh;
+        font-weight: 800;
+        padding: 1%;
+        width: 100%;
+        align-items: center;
+}
+
+.emailspan{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2vh;
+        /* float: right; */
+        /* position: relative; */
+        /* top: 0; */
+        /* right: 1%; */
+}
+.commentbox ul{
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media only screen and (min-width:650px) and (max-width:1020) {
+    .commentbox img {
+            width: 100%;
+            height: 30vh;
+            margin: 1%;
+            border-radius: 100%;
+        }
+}

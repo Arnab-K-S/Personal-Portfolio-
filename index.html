@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnab's Portfolio</title>
+    <link href="buttons.css" rel="stylesheet">
+    <link href="cards.css" rel="stylesheet">
+    <link href="feedback.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+    <link href="home.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
+    <link href="project.css" rel="stylesheet">
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="home">
+        <nav>
+            <h1 id="welcome">Welcome</h1>
+            <ul>
+                <li id="1"><a href="#home"><button>Home</button></a></li>
+                <li id="2"><a href="#project"><button>Project List</button></a></li>
+                <li id="3"><a href="#aboutme"><button>About Me</button></a></li>
+                <li id="4"><a href="#feedback"><button>Feedback</button></a></li>
+                <li id="5"><a href="#contactme"><button>Contact Me</button></a></li>
+                <div class="dropdown"><button id="themes" class="dropbtn">Themes</button>
+                    <div id="dropmenu">
+                        <button id="default">Default</button>
+                        <button id="dark">Dark</button>
+                        <button id="greenery">Greenery</button>
+                        <button id="purewhite">Pure White</button>
+                        <button id="redbase">Red Base</button>
+                     </div>
+            </ul>
+        </nav><svg id="d1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path id="path" fill="#6f68ff" fill-opacity="1"
+                d="M0,0L34.3,5.3C68.6,11,137,21,206,64C274.3,107,343,181,411,197.3C480,213,549,171,617,176C685.7,181,754,235,823,224C891.4,213,960,139,1029,128C1097.1,117,1166,171,1234,208C1302.9,245,1371,267,1406,277.3L1440,288L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
+            </path>
+        </svg>
+        <section id="section1">
+            <div class="titlebox">
+                <h1 id="intro">Welcome to my Website | Arnab</h1>
+                <p>Personal Portfolio Website as well as a project made using pure HTML Vanila CSS and Vanila JavaScript.
+                    This website contains an accumulation of all my projects and skills.
+                    This website was made by me in my first year where i explored and gained a bit of experience in
+                    various fields of computer science. My top skills include css and web front end desiging , python
+                    automation and web scrapping.</p><button id="resume">Download Resume</button>
+            </div><img id="webdesign" src="images/webdesign.jpg" alt=".">
+        </section>
+        <div class="flexbox">
+            <div class="card">
+                <h1>Python Programming &amp; Automation</h1>
+                <div class="cardbody"><img src="images/1.webp" alt=".">
+                    Core Python Expertise | Knowledge of Web Frameworks | Familiarity with Automation Libraries |
+                    Familiarity wtih Regex and Request modules | Analytical and Problem-Solving Capabilities |
+                    Expert-level Testing and Debugging skills |</div>
+            </div>
+            <div class="card">
+                <h1>C++</h1>
+                <div class="cardbody"><img src="images/2.jpg"
+                        alt=".">First Programming Language | Learned Data Structures and Algorithms | Vectors | Linked
+                    Lists | Pointers | STL | Search Algorithms</div>
+            </div>
+            <div class="card">
+                <h1>Web Development</h1>
+                <div class="cardbody"><img src="images/transparent.webp"
+                        alt=".">Good Understanding of HTML CSS JS | Responsivesness | Reactivesness | Familiarity with
+                    SASS | CSS GRIDS | CSS Flexbox | Good Knowledge of Backend Frameworks like PhP , Django , Flask and
+                    Nodejs | Reactjs | Familar with Databases like MySQL and Firebase</div>
+            </div>
+        </div><img id="frontpage" src="images/frontpage.png" alt="."></div>
+        <div id="project" class="project">
+        <div class="pagesection"> Projects</div>
+        <div class="header"> Solo Projects</div>
+        <table id="solo">
+            <tr>
+                <th>Slno</th>
+                <th>Project Name<br> (Click to open Github Repo)</th>
+                <th>Project Description</th>
+                <th>Hosted link (if available)</th>
+            </tr>
+        </table>
+        <div class="header"> Team Projects</div>
+        <table id="team">
+            <tr>
+                <th>Slno</th>
+                <th>Project Name<br> (Click to open Github Repo)</th>
+                <th>Project Description</th>
+                <th>Team Name</th>
+                <th>Hosted link (if available)</th>
+            </tr>
+        </table>
+    </div>
+    
+    <div id="feedback" class="feedback">
+       <div class="pagesection"> Feedback</div>
+    <div class="container">
+        <input id="name" placeholder="Enter you Name" value="">
+        <input type="email" id="email"
+            placeholder="Enter your Email ID (someone@domian.com)" value="">
+            <textarea id="comment" rows="4" cols="50"
+            placeholder="Write a comment"></textarea>
+            <button id="submit">Submit</button>
+        <div class="commentContainer"></div>
+    </div>
+    <div class="commentbox" id="commentbox">
+        <ul id="ul">
+            <!-- <li>
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="profile">
+                <div class="rest">
+                <div class="info">
+                <span class="emailspan"> SampleEmail@example.com</span>
+                <h2> Sample Name </h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus quos nostrum deserunt quam, alias
+                    libero ea? Aliquam tempore ea architecto fuga veritatis ratione, aut libero recusandae sed illo.
+                    Ducimus.</p>
+                    </div>
+            </li>
+            <li>
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="profile">
+                <div class="rest">
+                <div class="info">
+                <span class="emailspan"> arnabkumarsing@example.com</span>
+                <h2> Arnab Kumar Singh </h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus quos nostrum deserunt quam, alias
+                    libero ea? Aliquam tempore ea architecto fuga veritatis ratione, aut libero recusandae sed illo.
+                    Ducimus.</p>
+                    </div>
+            </li>
+            <li>
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="profile">
+                <div class="rest">
+                <div class="info">
+                <span class="emailspan"> arnabkumarsing@example.com</span>
+                <h2> Arnab Kumar Singh </h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus quos nostrum deserunt quam, alias
+                    libero ea? Aliquam tempore ea architecto fuga veritatis ratione, aut libero recusandae sed illo.
+                    Ducimus.</p>
+                    </div>
+            </li> -->
+           
+
+        </ul>
+    </div>
+   </div> 
+
+        <footer>
+            <div id="contactme">
+                <div class="socialmedia">
+                    <a href="https://www.linkedin.com/in/arnab-kumar-singh-405862240">
+                <?xml version="1.0" ?>
+                <svg height="100%" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <style>.cls-1 {fill: var(--text);}
+                            .cls-2 {fill: var(--basecolor);}
+                        </style>
+                    </defs>
+                    <title />
+                    <g data-name="14-linkedin" id="_14-linkedin">
+                        <rect class="cls-1" height="64" rx="11.2" ry="11.2" width="64" />
+                        <rect class="cls-2" height="32.72" width="9.03" x="8.99" y="23.54" />
+                        <path class="cls-2"
+                            d="M48.2,23.54C41.54,21,36.72,25.3,34.66,27.7V23.54h-9V56.26h9V39a8.45,8.45,0,0,1,2.23-5.92,4.75,4.75,0,0,1,3.41-1.67A5.42,5.42,0,0,1,44.24,33a6.13,6.13,0,0,1,1.7,4.35V56.26H56.1V36S57.23,26.92,48.2,23.54Z" />
+                        <circle class="cls-2" cx="13.5" cy="13.38" r="5.64" />
+                    </g>
+                </svg>
+                </a>
+                </div>
+
+               <div class="socialmedia">
+                <?xml version="1.0" ?>
+                <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%"
+                    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1"
+                    viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g>
+                        <path d="M512,256c0,-141.385 -114.615,-256 -256,-256c-141.385,0 -256,114.615 -256,256c0,127.777 93.616,233.685 216,252.89l0,-178.89l-65,0l0,-74l65,0l0,-56.4c0,-64.16 38.219,-99.6 96.695,-99.6c28.009,0 57.305,5 57.305,5l0,63l-32.281,0c-31.801,0 -41.719,19.733 -41.719,39.978l0,48.022l71,0l-11.35,74l-59.65,0l0,178.89c122.385,-19.205 216,-125.113 216,-252.89Z"
+                            style="fill:var(--text);fill-rule:nonzero;" />
+                        <path d="M355.65,330l11.35,-74l-71,0l0,-48.022c0,-20.245 9.917,-39.978 41.719,-39.978l32.281,0l0,-63c0,0 -29.297,-5 -57.305,-5c-58.476,0 -96.695,35.44 -96.695,99.6l0,56.4l-65,0l0,74l65,0l0,178.89c13.033,2.045 26.392,3.11 40,3.11c13.608,0 26.966,-1.065 40,-3.11l0,-178.89l59.65,0Z"
+                            style="fill:var(--basecolor);fill-rule:nonzero;" />
+                    </g>
+                </svg>
+
+               </div> 
+               <div class="socialmedia">
+<?xml version="1.0" ?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%"
+    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1"
+    viewBox="0 0 600 600" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+    xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g transform="matrix(1.01619,0,0,1.01619,44,43.8384)">
+        <path
+            d="M251.921,0.159C183.503,0.159 174.924,0.449 148.054,1.675C121.24,2.899 102.927,7.157 86.902,13.385C70.336,19.823 56.287,28.437 42.282,42.442C28.277,56.447 19.663,70.496 13.225,87.062C6.997,103.086 2.739,121.399 1.515,148.213C0.289,175.083 0,183.662 0,252.08C0,320.497 0.289,329.076 1.515,355.946C2.739,382.76 6.997,401.073 13.225,417.097C19.663,433.663 28.277,447.712 42.282,461.718C56.287,475.723 70.336,484.337 86.902,490.775C102.927,497.002 121.24,501.261 148.054,502.484C174.924,503.71 183.503,504 251.921,504C320.338,504 328.917,503.71 355.787,502.484C382.601,501.261 400.914,497.002 416.938,490.775C433.504,484.337 447.553,475.723 461.559,461.718C475.564,447.712 484.178,433.663 490.616,417.097C496.843,401.073 501.102,382.76 502.325,355.946C503.551,329.076 503.841,320.497 503.841,252.08C503.841,183.662 503.551,175.083 502.325,148.213C501.102,121.399 496.843,103.086 490.616,87.062C484.178,70.496 475.564,56.447 461.559,42.442C447.553,28.437 433.504,19.823 416.938,13.385C400.914,7.157 382.601,2.899 355.787,1.675C328.917,0.449 320.338,0.159 251.921,0.159ZM251.921,45.551C319.186,45.551 327.154,45.807 353.718,47.019C378.28,48.14 391.619,52.244 400.496,55.693C412.255,60.263 420.647,65.723 429.462,74.538C438.278,83.353 443.737,91.746 448.307,103.504C451.757,112.381 455.861,125.72 456.981,150.282C458.193,176.846 458.45,184.814 458.45,252.08C458.45,319.345 458.193,327.313 456.981,353.877C455.861,378.439 451.757,391.778 448.307,400.655C443.737,412.414 438.278,420.806 429.462,429.621C420.647,438.437 412.255,443.896 400.496,448.466C391.619,451.916 378.28,456.02 353.718,457.14C327.158,458.352 319.191,458.609 251.921,458.609C184.65,458.609 176.684,458.352 150.123,457.14C125.561,456.02 112.222,451.916 103.345,448.466C91.586,443.896 83.194,438.437 74.378,429.621C65.563,420.806 60.103,412.414 55.534,400.655C52.084,391.778 47.98,378.439 46.859,353.877C45.647,327.313 45.391,319.345 45.391,252.08C45.391,184.814 45.647,176.846 46.859,150.282C47.98,125.72 52.084,112.381 55.534,103.504C60.103,91.746 65.563,83.353 74.378,74.538C83.194,65.723 91.586,60.263 103.345,55.693C112.222,52.244 125.561,48.14 150.123,47.019C176.687,45.807 184.655,45.551 251.921,45.551Z"
+            style="fill:var(--text); fill-rule:nonzero;" />
+        <path
+            d="M251.921,336.053C205.543,336.053 167.947,298.457 167.947,252.08C167.947,205.702 205.543,168.106 251.921,168.106C298.298,168.106 335.894,205.702 335.894,252.08C335.894,298.457 298.298,336.053 251.921,336.053ZM251.921,122.715C180.474,122.715 122.556,180.633 122.556,252.08C122.556,323.526 180.474,381.444 251.921,381.444C323.367,381.444 381.285,323.526 381.285,252.08C381.285,180.633 323.367,122.715 251.921,122.715Z"
+            style="fill:var(--text);fill-rule:nonzero;" />
+        <path
+            d="M416.627,117.604C416.627,134.3 403.092,147.834 386.396,147.834C369.701,147.834 356.166,134.3 356.166,117.604C356.166,100.908 369.701,87.374 386.396,87.374C403.092,87.374 416.627,100.908 416.627,117.604Z"
+            style="fill:var(--text);fill-rule:nonzero;" />
+    </g>
+</svg>
+            </div>
+               <div class="socialmedia" id="github">
+                <a href="https://github.com/Arnab-K-S">
+                    <?xml version="1.0" ?><svg fill="none" height="100%" viewBox="0 0 25 25" width="100%" xmlns="http://www.w3.org/2000/svg">
+                        <path clip-rule="evenodd"
+                            d="M15.7481 24.9471C24.0901 24.7061 24.9111 22.9501 24.9111 12.9811C24.9111 1.98108 23.9111 0.981079 12.9111 0.981079C1.91113 0.981079 0.911133 1.98108 0.911133 12.9811C0.911133 22.9761 1.73713 24.7151 10.1391 24.9491C10.2121 24.8581 10.2391 24.7441 10.2391 24.6281C10.2391 24.3781 10.2291 21.8121 10.2241 20.9291C7.18713 21.5681 6.54613 19.5101 6.54613 19.5101C6.04913 18.2881 5.33313 17.9621 5.33313 17.9621C4.34213 17.3061 5.40813 17.3191 5.40813 17.3191C6.50413 17.3941 7.08113 18.4101 7.08113 18.4101C8.05513 20.0271 9.63713 19.5601 10.2591 19.2891C10.3581 18.6061 10.6401 18.1391 10.9521 17.8751C8.52713 17.6081 5.97813 16.7001 5.97813 12.6451C5.97813 11.4901 6.40413 10.5461 7.10213 9.80608C6.98913 9.53808 6.61513 8.46208 7.20913 7.00608C7.20913 7.00608 8.12613 6.72108 10.2121 8.09008C11.0831 7.85508 12.0171 7.73808 12.9461 7.73408C13.8731 7.73808 14.8071 7.85508 15.6801 8.09008C17.7651 6.72108 18.6801 7.00608 18.6801 7.00608C19.2761 8.46208 18.9011 9.53808 18.7881 9.80608C19.4881 10.5461 19.9111 11.4901 19.9111 12.6451C19.9111 16.7101 17.3581 17.6051 14.9251 17.8661C15.3171 18.1931 15.6661 18.8391 15.6661 19.8261C15.6661 20.7721 15.6601 22.4451 15.6561 23.5541C15.6541 24.1031 15.6531 24.5131 15.6531 24.6281C15.6531 24.7371 15.6821 24.8521 15.7481 24.9471V24.9471Z"
+                            fill="var(--text)" fill-rule="evenodd" />
+                    </svg>
+                    </a>
+                </div>
+            </div>
+            <h5>Copyright © | All Rights Reserved under Arnab Kumar Singh</h5>
+            <h6>Note: All images are obtained from internet. I don't claim any ownership to the images.Rights belong to
+                respective owners</h6>
+        </footer>
+</body>
+<script defer="defer" src="index.js"></script>
+<script  defer="defer" src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script  defer="defer" src="feedback.js"></script>
+<script  src="projectlist.js"></script>
+</html>

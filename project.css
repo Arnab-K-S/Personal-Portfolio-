@@ -1,0 +1,54 @@
+table,tr{
+    background-color: var(--white);
+}
+table{width: 100%;}
+    th{
+        color: var(--text);
+        background-color: var(--basecolor);
+        /* margin-inline: 0.1%; */
+        border-inline: 0.1vh solid var(--white);
+        text-align: center;
+    }
+  
+    .header{
+        align-self: center;
+        text-align: center;
+        padding: 2%;
+        font-size: 5vh;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: var(--white);
+        color: var(--black);
+        /* border-radius: 10%; */
+    }
+    tr{
+    
+    border-inline: 0.1vh solid var(--basecolor);
+    display: grid;
+    text-align: start;
+    color: var(--black);
+    font-weight: 500;
+}
+#solo tr{grid-template-columns: 5% 20% 63% 12% ;}
+#team tr {grid-template-columns: 5% 20% 52% 16% 7%;
+}
+td{
+    background-color: var(--grey);
+    padding: 2%;
+    margin-inline: 0.1%;
+    text-align: center;
+}
+
+a{
+    align-self: center;
+    text-decoration: none;
+    padding: 1%;
+    color: var(--black);
+}
+
+.link{
+    background-color: var(--white);
+    width: 5vh;
+    height: 5vh;
+    border-radius: 25%;
+    color: var(--text);
+}

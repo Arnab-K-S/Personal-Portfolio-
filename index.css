@@ -1,0 +1,86 @@
+/* ===========Variables======================== */
+:root{
+    --text                  :rgb(255, 255, 255);
+    --Borders               :rgb(255, 255, 255);
+    --black                 :black;
+    --shadow                :rgba(0, 0, 0, 0.346);
+    --background            :rgb(236, 238, 255);
+    --grey                  :rgb(181, 181, 181);
+    --white                 :white;
+    --basecolor             :rgb(111, 104, 255);
+}
+
+.default {
+    --text: rgb(255, 255, 255);
+    --Borders: rgb(255, 255, 255);
+    --black: black;
+    --shadow: rgba(0, 0, 0, 0.346);
+    --background: rgb(236, 238, 255);
+    --grey: rgb(181, 181, 181);
+    --white: white;
+    --basecolor: rgb(111, 104, 255);
+}
+
+.DarkTheme{
+    --text          : rgb(255, 255, 255);
+    --Borders       : rgb(47, 26, 139);
+    --black         : rgb(158, 158, 158);
+    --shadow        : rgba(0, 0, 0, 0.346);
+    --background    : rgb(12, 0, 70);
+    --grey          : rgb(0, 0, 0);
+    --white         : rgb(0, 8, 54);
+    --basecolor     : rgb(20, 0, 111);
+}
+
+.greenery{
+    --text: rgb(255, 255, 255);
+    --Borders: rgb(255, 255, 255);
+    --black: rgba(255, 255, 255, 0.796);
+    --shadow: rgba(0, 0, 0, 0.346);
+    --background: rgb(39, 39, 39);
+    --grey: rgb(15, 66, 42);
+    --white: rgb(70, 70, 70);
+    --basecolor: rgb(0 153 30);
+}
+
+.purewhite{
+        --text: rgb(0 0 0);
+        --Borders: rgb(255 255 255);
+        --black: black;
+        --shadow: rgba(0, 0, 0, 0.346);
+        --background: rgb(240 240 240);
+        --grey: rgb(181, 181, 181);
+        --white: white;
+        --basecolor: rgb(255 255 255);
+    }
+
+.redbase{
+        --text: rgb(255, 255, 255);
+        --Borders: rgb(255, 255, 255);
+        --black: white;
+        --shadow: rgba(0, 0, 0, 0.346);
+        --background: rgb(64, 64, 64);
+        --grey: rgb(56, 56, 56);
+        --white: #767676;
+        --basecolor: rgba(255, 0, 0, 0.626);
+}  
+/* =============================================== */
+*{
+    padding                 : 0%;
+    margin                  : 0%;
+    transition              : 1s;
+}
+
+body{
+    overflow-x              : hidden;
+    background-color        : var(--background);
+}
+
+button{
+    cursor: pointer;
+}
+
+
+.DarkTheme img , .greenery img{
+    filter: brightness(60%);
+}
