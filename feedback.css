@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mukta:wght@200&family=Titan+One&display=swap');
 .container{
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -10,7 +9,7 @@
     font-family: 'Mukta',sans-serif;
 }
 label,input,textarea{
-    border-radius: 2vh;
+    border-radius: 2vw;
     margin: 2%;
     padding: 1%;
     background-color: var(--white);
@@ -25,6 +24,8 @@ textarea{
 .container button {
     padding: 1%;
     margin-left: 40%;
+    width: 20vh;
+    border-radius: 2vw;
     background-color: var(--basecolor);
 }
 
@@ -36,10 +37,10 @@ textarea{
 
 .commentbox{
     background-color: var(--white);
-    padding: 5%;
+    padding: 2%;
     
 }
-
+/* 
 #box{
     position: absolute;
     right: 0%;
@@ -48,7 +49,7 @@ textarea{
     background-color: var(--basecolor);
     margin-left: auto;
     border-radius: 2vh;
-}
+} */
 
 .commentbox li{
     /* background-color: var(--background); */
@@ -95,7 +96,7 @@ textarea{
 .time,.date{
     background-color: var(--basecolor);
     padding-inline: 0.5%;
-    border-radius: 2vh;
+    border-radius: 2vw;
     color: var(--text);
 }
 .time{
@@ -109,8 +110,13 @@ textarea{
 @media only screen and (min-width:650px) and (max-width:1020) {
     .commentbox img {
             width: 100%;
-            height: 30vh;
+            height: 30vw;
             margin: 1%;
             border-radius: 100%;
         }
+
+    .container button{
+        height: 10vw;
+        width: 20vw;
+    }
 }

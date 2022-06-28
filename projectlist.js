@@ -85,7 +85,7 @@ TeamProjects.forEach(data => {
      <tr>
             <td>${data.slno}</td>
             <td><a href=${data.repo}>${data.name}</a></td>
-            <td><p>${data.description}</p></td>
+            <td class="description"><p>${data.description}</p></td>
             <td>${data.teamname}</td>
             <td><button class="link" ><a href=${data.url}>Go</a></button></td>
         </tr>
@@ -97,7 +97,7 @@ projects.forEach(data => {
      <tr>
             <td>${data.slno}</td>
             <td><a href=${data.repo}>${data.name}</a></td>
-            <td><p>${data.description}</p></td>
+            <td class="description"><p>${data.description}</p></td>
             <td><button class="link" ><a href=${data.url}>Go</a></button></td>
         </tr>
     `

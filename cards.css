@@ -14,9 +14,9 @@ img,
     align-items                 :    center;
     width                       :    20rem;
     border-radius               :    1vh;
+    font-size                   :    3vh;
     transition                  :    1s;
     background-color            :    var(--white);
-    font-size                   :    3vh;
     text-align                  :    center;
     justify-content             :    center;
 }       

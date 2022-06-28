@@ -80,6 +80,9 @@ ul button:active {
     transform               :        translateY(-1rem);
 }
 
+
+/*=================== NAVBAR===================== */
+
 @media only screen and (max-width:920px) {
     nav,ul{
         flex-direction      :        column;
@@ -123,6 +126,6 @@ ul button:active {
 }
 
 .navigation{
-    text-decoration: none;
-    color: inherit;
+    text-decoration         : none;
+    color                   : inherit;
 }
