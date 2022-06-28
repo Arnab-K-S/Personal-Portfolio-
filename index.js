@@ -55,4 +55,4 @@ document.getElementById("greenery").addEventListener("click", greenery);
 document.getElementById("purewhite").addEventListener("click", pureWhite);
 document.getElementById("redbase").addEventListener("click", redbase);
 document.getElementById("themes").addEventListener("mouseover", show);
-document.getElementById("dropmenu").addEventListener("mouseleave", hide);
+document.getElementById("dropdown").addEventListener("mouseleave", hide);

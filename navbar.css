@@ -80,7 +80,7 @@ ul button:active {
     transform               :        translateY(-1rem);
 }
 
-@media only screen and (max-width:740px) {
+@media only screen and (max-width:920px) {
     nav,ul{
         flex-direction      :        column;
         align-items         :        center;
