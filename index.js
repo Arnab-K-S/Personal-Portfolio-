@@ -3,6 +3,8 @@ document.body.onselectstart = () => false;
 const backgrd=(currentTheme)=>{
     if (currentTheme == "Ocean")
         document.body.style.backgroundImage = " linear-gradient(rgba(0, 0, 79, 0.54),rgba(0, 0, 201, 0.453)) ,url('images/Ocean.jpg')";
+    else
+        document.body.style.backgroundImage="none"
 }
 // var currentTheme='';
 const themeSet = (theme) => {
