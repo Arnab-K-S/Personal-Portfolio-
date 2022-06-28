@@ -78,3 +78,7 @@
     background-color: var(--basecolor);
     color: var(--text);
 }
+
+#note{
+    display: none;
+}

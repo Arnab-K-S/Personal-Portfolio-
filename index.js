@@ -30,5 +30,5 @@ for (let i = 0; i < themeList.length; i++) {
 
 if (window.matchMedia("(max-width: 700px)").matches) {
     // document.getElementById("dropdown").addEventListener("click", hide);
-    document.getElementById("project").style.display="none";
+    // document.getElementById("project").style.display="none";
 }

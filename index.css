@@ -24,12 +24,12 @@
 .DarkTheme{
     --text          : rgb(255, 255, 255);
     --Borders       : rgb(47, 26, 139);
-    --black         : rgb(158, 158, 158);
+    --black         : rgb(255, 255, 255);
     --shadow        : rgba(0, 0, 0, 0.346);
     --background    : rgb(12, 0, 70);
     --grey          : rgb(0, 0, 0);
-    --white         : rgba(48, 63, 150, 0.452);
-    --basecolor     : rgb(20, 0, 111);
+    --white         : rgb(0, 0, 0);
+    --basecolor     : rgb(41, 49, 203);
 }
 
 .greenery{
@@ -77,6 +77,16 @@
         --basecolor: rgba(255, 0, 0, 0.626);
     }
 
+    .neongreen{
+            --text: rgb(125, 214, 106);
+            --Borders: rgb(47, 26, 139);
+            --black: rgb(255, 255, 255);
+            --shadow: rgba(0, 0, 0, 0.346);
+            --background: rgb(31, 31, 31);
+            --grey: rgb(0, 0, 0);
+            --white: rgb(0, 0, 0);
+            --basecolor: rgb(0, 0, 0);
+    }
 /* =============================================== */
 *{
     padding                 : 0%;

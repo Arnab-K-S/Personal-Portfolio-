@@ -1,6 +1,6 @@
 @media only screen and (max-width:650px) {
     #project{
-        display: none;
+        display: block;
     }
     .titlebox {
         border-radius: 0 0 0 0;
@@ -46,17 +46,22 @@
     .socialmedia{
     height: 8vw;
     }
-    #solo,
-    #team {
-        min-width: 500px;
-    }
+    
 
-    #project {
-        overflow-x: scroll;
-    }
-
-    .description {
+    #note {
         display: block;
+        color: var(--black);
+    }
+
+    #solo tr{
+        grid-template-columns: 10% auto 20%;
+        word-wrap: break-word;
+    }
+        #team tr{  grid-template-columns: 20% 30% 30% 20%;}
+    
+   
+    .description {
+        display: none;
     }
 
     #contactme {
